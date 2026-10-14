@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#F7F1E8"/>
+  <circle cx="360" cy="200" r="80" fill="none" stroke="#333" stroke-width="12"/>
+  <circle cx="360" cy="200" r="16" fill="#C4A35A"/>
+  <rect x="340" y="280" width="40" height="60" rx="8" fill="#222"/>
+  <text x="360" y="70" fill="#2C2416" font-size="20" text-anchor="middle" font-family="Georgia, serif">"Hidupkan kipas ini."</text>
+</svg>

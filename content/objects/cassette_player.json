@@ -1,0 +1,59 @@
+{
+  "id": "cassette_player",
+  "display_name": "Pemutar Kaset",
+  "function": {
+    "type": "audio_loop",
+    "sfx": "cassette_loop"
+  },
+  "parts": [
+    {
+      "id": "body",
+      "mesh": "cassette_body",
+      "detachable": false,
+      "parent": null
+    },
+    {
+      "id": "screw_a",
+      "mesh": "screw",
+      "detachable": true,
+      "parent": "body",
+      "tool": "screwdriver",
+      "offset": [-0.12, 0.04, 0.08],
+      "detach_sfx": "screw_turn",
+      "assemble_sfx": "part_snap_in"
+    },
+    {
+      "id": "screw_b",
+      "mesh": "screw",
+      "detachable": true,
+      "parent": "body",
+      "tool": "screwdriver",
+      "offset": [0.12, 0.04, 0.08],
+      "detach_sfx": "screw_turn",
+      "assemble_sfx": "part_snap_in"
+    },
+    {
+      "id": "door",
+      "mesh": "cassette_door",
+      "detachable": true,
+      "parent": "body",
+      "tool": "hand",
+      "requires": ["screw_a", "screw_b"],
+      "offset": [0.0, 0.06, 0.1],
+      "detach_sfx": "part_snap_out",
+      "assemble_sfx": "part_snap_in"
+    },
+    {
+      "id": "battery",
+      "mesh": "battery",
+      "detachable": true,
+      "parent": "body",
+      "tool": "hand",
+      "requires": ["door"],
+      "offset": [0.0, -0.02, 0.0],
+      "detach_sfx": "part_snap_out",
+      "assemble_sfx": "part_snap_in"
+    }
+  ],
+  "win_requires_attached": ["screw_a", "screw_b", "door", "battery"]
+}

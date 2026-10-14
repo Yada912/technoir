@@ -1,0 +1,34 @@
+{
+  "id": "ch02_test",
+  "title_key": "ch02_title",
+  "subtitle_key": "ch02_subtitle",
+  "hero": "fan",
+  "environment": "day_window",
+  "object_id": "desk_fan",
+  "unlock_after": "ch01_prologue",
+  "unlocks": null,
+  "story_panels": [
+    {
+      "image": "res://assets/story/ch02_panel_01.svg",
+      "text_key": "panel_ch02_01",
+      "mood": "day"
+    },
+    {
+      "image": "res://assets/story/ch02_panel_02.svg",
+      "text_key": "panel_ch02_02",
+      "mood": "day"
+    },
+    {
+      "image": "res://assets/story/ch02_panel_03.svg",
+      "text_key": "panel_ch02_03",
+      "mood": "day"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Mas Doni",
+      "text_key": "dialogue_doni_fan"
+    }
+  ],
+  "show_blueprint": true
+}

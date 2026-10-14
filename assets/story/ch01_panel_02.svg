@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#121C30"/>
+  <rect x="200" y="140" width="320" height="160" rx="12" fill="#222"/>
+  <rect x="240" y="175" width="240" height="70" rx="6" fill="#111"/>
+  <circle cx="300" cy="210" r="24" fill="#C4A35A"/>
+  <circle cx="420" cy="210" r="24" fill="#C4A35A"/>
+  <ellipse cx="360" cy="340" rx="120" ry="16" fill="#000" opacity="0.25"/>
+  <text x="360" y="70" fill="#E8D8C4" font-size="20" text-anchor="middle" font-family="Georgia, serif">Pemutar kaset yang diam</text>
+</svg>

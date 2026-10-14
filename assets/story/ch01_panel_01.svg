@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <defs>
+    <radialGradient id="lamp" cx="70%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#E8B86D" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#2A3A5C" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0E1628" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="420" fill="#0E1628"/>
+  <rect width="720" height="420" fill="url(#lamp)"/>
+  <rect x="80" y="260" width="520" height="28" rx="4" fill="#3E2A1A"/>
+  <rect x="120" y="220" width="160" height="40" rx="6" fill="#2B2B2B"/>
+  <circle cx="480" cy="200" r="28" fill="#E8B86D" opacity="0.9"/>
+  <rect x="470" y="228" width="20" height="40" fill="#C4A35A"/>
+  <text x="360" y="60" fill="#D8DEE8" font-size="22" text-anchor="middle" font-family="Georgia, serif">Malam di meja kerja</text>
+</svg>

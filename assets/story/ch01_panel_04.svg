@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#152038"/>
+  <rect x="90" y="250" width="540" height="24" fill="#3E2A1A"/>
+  <rect x="250" y="200" width="140" height="50" rx="6" fill="#2B2B2B"/>
+  <rect x="420" y="160" width="12" height="70" rx="3" fill="#C0392B"/>
+  <circle cx="200" cy="120" r="60" fill="#E8B86D" opacity="0.25"/>
+  <text x="360" y="70" fill="#F0E6D8" font-size="20" text-anchor="middle" font-family="Georgia, serif">Satu sekrup pertama</text>
+</svg>

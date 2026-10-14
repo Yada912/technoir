@@ -1,0 +1,60 @@
+{
+  "id": "desk_fan",
+  "display_name": "Kipas Meja",
+  "function": {
+    "type": "spin",
+    "part_id": "blades",
+    "speed": 6.0
+  },
+  "parts": [
+    {
+      "id": "base",
+      "mesh": "fan_base",
+      "detachable": false,
+      "parent": null
+    },
+    {
+      "id": "screw_l",
+      "mesh": "screw",
+      "detachable": true,
+      "parent": "base",
+      "tool": "screwdriver",
+      "offset": [-0.1, 0.18, 0.12],
+      "detach_sfx": "screw_turn",
+      "assemble_sfx": "part_snap_in"
+    },
+    {
+      "id": "screw_r",
+      "mesh": "screw",
+      "detachable": true,
+      "parent": "base",
+      "tool": "screwdriver",
+      "offset": [0.1, 0.18, 0.12],
+      "detach_sfx": "screw_turn",
+      "assemble_sfx": "part_snap_in"
+    },
+    {
+      "id": "grille",
+      "mesh": "fan_grille",
+      "detachable": true,
+      "parent": "base",
+      "tool": "hand",
+      "requires": ["screw_l", "screw_r"],
+      "offset": [0.0, 0.22, 0.14],
+      "detach_sfx": "part_snap_out",
+      "assemble_sfx": "part_snap_in"
+    },
+    {
+      "id": "blades",
+      "mesh": "fan_blades",
+      "detachable": true,
+      "parent": "base",
+      "tool": "hand",
+      "requires": ["grille"],
+      "offset": [0.0, 0.22, 0.08],
+      "detach_sfx": "part_snap_out",
+      "assemble_sfx": "part_snap_in"
+    }
+  ],
+  "win_requires_attached": ["screw_l", "screw_r", "grille", "blades"]
+}

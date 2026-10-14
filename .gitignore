@@ -1,0 +1,14 @@
+.godot/
+.import/
+export.cfg
+*.translation
+build/
+*.apk
+*.aab
+*.pck
+.DS_Store
+Thumbs.db
+*.swp
+.mono/
+data_*/
+android/

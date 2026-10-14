@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#F2E6D8"/>
+  <path d="M0 0 H720 V220 Q360 280 0 220 Z" fill="#E8A87C" opacity="0.55"/>
+  <rect x="260" y="180" width="200" height="120" rx="8" fill="#FFF8F0"/>
+  <text x="360" y="90" fill="#2C2416" font-size="22" text-anchor="middle" font-family="Georgia, serif">Ujian dari Mas Doni</text>
+</svg>

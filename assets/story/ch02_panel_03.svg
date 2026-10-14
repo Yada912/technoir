@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#EDE4D6"/>
+  <rect x="80" y="80" width="560" height="260" rx="12" fill="#F8F0E6"/>
+  <path d="M120 300 L600 300" stroke="#C4A35A" stroke-width="2"/>
+  <circle cx="360" cy="190" r="60" fill="none" stroke="#8B7340" stroke-width="3"/>
+  <text x="360" y="60" fill="#2C2416" font-size="20" text-anchor="middle" font-family="Georgia, serif">Setiap bilah adalah undangan</text>
+</svg>

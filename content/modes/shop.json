@@ -1,0 +1,9 @@
+{
+  "id": "shop",
+  "enabled": false,
+  "note": "Future expansion: mechanic shop queue minigame. Not in prototype.",
+  "queue": [],
+  "rewards": {
+    "currency": "reputation"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ch01_prologue",
+  "title_key": "ch01_title",
+  "subtitle_key": "ch01_subtitle",
+  "hero": "cassette",
+  "environment": "night_desk",
+  "object_id": "cassette_player",
+  "unlock_after": null,
+  "unlocks": "ch02_test",
+  "story_panels": [
+    {
+      "image": "res://assets/story/ch01_panel_01.svg",
+      "text_key": "panel_ch01_01",
+      "mood": "night"
+    },
+    {
+      "image": "res://assets/story/ch01_panel_02.svg",
+      "text_key": "panel_ch01_02",
+      "mood": "night"
+    },
+    {
+      "image": "res://assets/story/ch01_panel_03.svg",
+      "text_key": "panel_ch01_03",
+      "mood": "night"
+    },
+    {
+      "image": "res://assets/story/ch01_panel_04.svg",
+      "text_key": "panel_ch01_04",
+      "mood": "night"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Diri",
+      "text_key": "dialogue_self_cassette"
+    }
+  ]
+}

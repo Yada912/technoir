@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#0E1628"/>
+  <path d="M0 300 Q180 240 360 280 T720 260 L720 420 L0 420 Z" fill="#1A2744"/>
+  <circle cx="560" cy="100" r="40" fill="#3A4A6A" opacity="0.5"/>
+  <rect x="140" y="180" width="10" height="90" rx="3" fill="#C0392B"/>
+  <rect x="130" y="170" width="30" height="16" rx="3" fill="#A93226"/>
+  <text x="360" y="80" fill="#D8DEE8" font-size="20" text-anchor="middle" font-family="Georgia, serif">Ingin mengerti dari dalam</text>
+</svg>
